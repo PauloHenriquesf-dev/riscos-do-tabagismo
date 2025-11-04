@@ -21,6 +21,21 @@ Além disso, inclui um **quiz interativo “Verdade ou Mito?”**, que reforça 
 
 ## Estrutura do Projeto
 
+```text
+riscos-do-tabagismo/  
+├─ README.md  
+├─ docs/                   # Parte publicada no GitHub Pages
+│  ├─ index.html           # Página principal  
+│  ├─ style.css            # Estilo e layout responsivo  
+│  └─ assets/  
+│     ├─ images/           # Imagens do material  
+│     │   ├─ capa.png  
+│     │   ├─ danos.png  
+│     │   ├─ pulmao.png  
+│     └─ qrcode.png        # Gerado automaticamente (QR para o site)  
+└─ qrcodegenerator/        # Usado para gerar o QR Code
+```
+
 ---
 
 ## Tecnologias Utilizadas
